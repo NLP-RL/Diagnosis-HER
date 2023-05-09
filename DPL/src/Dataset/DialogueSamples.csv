@@ -1,0 +1,368 @@
+,,,
+Dialogue ID,28436,,
+Patient,Doctor,Symptom,IntentType
+"Hi doctor, I am suffering from Irritable infant.","Alright, have you got Skin rash?",O O O O O O O B-Symptom I-Symptom O,Symptom
+"Yes, I have got Skin rash.",Do you have Itching of skin?,O O O O O B-Symptom I-Symptom O,Symptom
+"True, doctor.",Have you felt Ache all over?,O O O O,Affirmative
+"Yes, I have felt so.",Are you dealing with Skin lesion?,O O O O O O O,Affirmative
+"Indeed, I have Skin lesion on hands. ","OK, you might have Chickenpox.",O O O O B-Symptom I-Symptom O O O,Symptom
+"Disease: Chickenpox, Group: 1",,,
+,,,
+Dialogue ID,16461,,
+Patient,Doctor,Symptom,IntentType
+"Doctor, I am suffering from Painful urination.","OK, are you also suffering from Penile discharge?",O O O O O O B-Symptom I-Symptom O,Symptom
+"Right, doctor.",Have you got Vaginal discharge too?,O O O O,Affirmative
+That is right.,Are you suffering from Paresthesia?,O O O O,Affirmative
+"Indeed, I am dealing with Paresthesia.",Do you feel Itching of skin?,O O O O O O B-Symptom O,Symptom
+"Yes, I have got Itching of skin.",Are you going through Spotting or bleeding during pregnancy?,O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+You are correct.,"Alright, based on your symptoms, you have Gonorrhea.",O O O O,Affirmative
+"Disease: Gonorrhea, Group: 1",,,
+,,,
+Dialogue ID,16394,,
+Patient,Doctor,Symptom,IntentType
+"Hello doctor, I am sickened with Pain or soreness of breast.","Alright, have you got Sore throat?",O O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+That is right.,Are you also having Fever?,O O O O,Affirmative
+"Yes, I do have Fever.",Do you feel Ankle pain?,O O O O O B-Symptom O,Symptom
+"Correct, I am feeling Ankle pain.","OK, have you got Knee lump or mass?",O O O O O B-Symptom I-Symptom O,Symptom
+"Yes, I have Knee lump or mass.","Based on your symptoms, you have Dengue fever.",O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+"Disease: Dengue fever, Group: 1",,,
+,,,
+Dialogue ID,8868,,
+Patient,Doctor,Symptom,IntentType
+"Hello doctor, I am suffering from Excessive growth.","Alright, have you got Vulvar sore?",O O O O O O O B-Symptom I-Symptom O,Symptom
+That is right.,Are you also dealing with Joint stiffness or tightness?,O O O O,Affirmative
+"Yes, I have trouble with it.",Do you have Itchy eyelid?,O O O O O O O O,Affirmative
+"Yes, I have got Itchy eyelid.","OK, I think you have Carcinoid syndrome.",O O O O O B-Symptom I-Symptom O,Symptom
+"Disease: Carcinoid syndrome, Group: 4",,,
+,,,
+,,,
+Dialogue ID,17254,,
+Patient,Doctor,Symptom,IntentType
+"Hi doctor, I have got severe Sharp abdominal pain.",Do you feel like Vomiting?,O O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Yes, doctor.",Are you suffering from Nausea?,O O O O,Affirmative
+That is right.,Have you felt lIke Weakness?,O O O O,Affirmative
+"I do feel Weakness, nowadays.",Have you got Fluid retention?,O O O B-Symptom O O O,Symptom
+"True, I am suffering from Fluid retention.","Then, you may be suffering from Diabetic ketoacidosis.",O O O O O O B-Symptom I-Symptom O,Symptom
+"Disease: Diabetic ketoacidosis, Group: 4",,,
+,,,
+,,,
+Dialogue ID,20650,,
+Patient,Doctor,Symptom,IntentType
+"Hello doctor, I have symptoms of Peripheral edema. My hands and legs are swelling.","OK , are you suffering from Nausea?",O O O O O O O B-Symptom I-Symptom O O O O O O O O,Symptom
+"That is right, doctor.",Are you having Difficulty breathing?,O O O O O O,Affirmative
+"Yes, I have got Difficulty breathing.",Do you feel Weakness?`,O O O O O B-Symptom I-Symptom O,Symptom
+"True, doctor.",Have you got Hand or finger swelling?,O O O O,Affirmative
+"Correct, I have got Hand or finger swelling.",I think you are suffering from Fluid overload.,O O O O O B-Symptom  I-Symptom  I-Symptom  I-Symptom O,Symptom
+"Disease: Fluid overload, Group: 4",,,
+,,,
+Dialogue ID,4400,,
+Patient,Doctor,Symptom,IntentType
+"Hi doctor, I am suffering from Neck pain.",Do you have Muscle pain?,O O O O O O O B-Symptom I-Symptom O,Symptom
+Indeed doctor.,Have you got Leg pain?,O O O,Affirmative
+That is right.,Are you suffering from Low back pain?,O O O O,Affirmative
+"True, I have got Low back pain.",I think you have Fibromyalgia.,O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Disease: Fibromyalgia, Group: 5",,,
+,,,
+,,,
+Dialogue ID,14290,,
+Patient,Doctor,Symptom,IntentType
+"Hello doctor, I have got Anxiety and nervousness.","OK, are you suffering from Depression?",O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+Indeed doctor.,Have you got Low self-esteem?,O O O,Affirmative
+So true.,Are you also dealing with Excessive anger?,O O O,Affirmative
+"Yes, I am experiencing Excessive anger.","Fine, you may have Dissociative disorder.",O O O O O B-Symptom I-Symptom O,Symptom
+"Disease: Dissociative disorder, Group: 5",,,
+,,,
+Dialogue ID,10769,,
+Patient,Doctor,Symptom,IntentType
+"Hello doctor, I am ill with Vomiting.",Are you also dealing with Abusing alcohol?,O O O O O O O B-Symptom O,Symptom
+"Yes, I have got Abusing alcohol.","OK, have you observed Depressive or psychotic symptoms?",O O O O O B-Symptom I-Symptom O,Symptom
+"Indeed, I have been struggling with Depressive or psychotic symptoms.",Do you feel Sharp chest pain?,O O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+That is right.,Your symptoms signify that you have Alcohol intoxication.,O O O O,Affirmative
+"Disease: Alcohol intoxication, Group: 5",,,
+,,,
+,,,
+Dialogue ID,7635,,
+Patient,Doctor,Symptom,IntentType
+"Good evening doctor, I am struggling with Shortness of breath.",Have you felt Anxiety and nervousness?,O O O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"True, I have trouble with Anxiety and nervousness.",Do you feel Depression?,O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Indeed, I do feel Depression.",Are you suffering from Palpitations?,O O O O O B-Symptom O,Symptom
+"Yes, I am sick with Palpitations.",Your symptoms suggest that you have Anxiety.,O O O O O O B-Symptom O,Symptom
+"Disease: Anxiety, Group: 5",,,
+,,,
+,,,
+Dialogue ID,16949,,
+Patient,Doctor,Symptom,IntentType
+"Doctor, I am suffering from Back pain.",Do you have Low back pain too?,O O O O O O B-Symptom I-Symptom O,Symptom
+"So true, doctor.",Have you got Hip pain too?,O O O O O,Affirmative
+That is right.,Do you have Arm pain too?,O O O O,Affirmative
+"Yes, I have got Arm pain too.",Your symptoms indicate that you have Degenerative disc disease.,O O O O O B-Symptom I-Symptom O O,Symptom
+"Disease: Degenerative disc disease, Group: 6",,,
+,,,
+,,,
+Dialogue ID,20599,,
+Patient,Doctor,Symptom,IntentType
+"Hi Doctor, I have got Problems with movement.","OK, are you suffering from Abnormal involuntary movements?",O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"True, I am dealing with Abnormal involuntary movements.",Have you got Dizziness?,O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"You are right, doctor.",Are you also dealing with Loss of sensation?,O O O O O O,Affirmative
+"Yes, I have felt Loss of sensation.","Then, you may have Essential tremor.",O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Disease: Essential tremor, Group: 6",,,
+,,,
+,,,
+Dialogue ID,17422,,
+Patient,Doctor,Symptom,
+"Good afternoon doctor, I have got Irregular appearing scalp. What could be its cause?","OK, are you also dealing with Disturbance of memory?",O O O O O O O B-Symptom I-Symptom I-Symptom O O O O O O O,Symptom
+"Yes, I am suffering from Disturbance of memory.",Have you got Depressive or psychotic symptoms?,O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+That is right.,Have you experienced Hostile behavior?,O O O O,Affirmative
+"True, I have observed Hostile behavior.","OK, you may have Alzheimer disease.",O O O O O B-Symptom I-Symptom O,Symptom
+"Disease: Alzheimer disease, Group: 6",,,
+,,,
+,,,
+Dialogue ID,24016,,
+Patient,Doctor,Symptom,
+"Doctor, I have Leg pain.","OK, do you have Loss of sensation?",O O O O B-Symptom I-Symptom O,Symptom
+"For sure, doctor.",Have you got Arm pain too?,O O O O O,Affirmative
+"Yes, I have got Arm pain.",Are you dealing with Low back pain?,O O O O O B-Symptom I-Symptom O,Symptom
+That is right.,"Per your symptoms, you might have Complex regional pain syndrome.",O O O O,Affirmative
+"Disease: Complex regional pain syndrome, Group: 6",,,
+,,,
+,,,
+Dialogue ID,29811,,
+Patient,Doctor,Symptom,
+"Hi doctor, I have felt Neck pain.",Have you got Loss of sensation?,O O O O O O B-Symptom I-Symptom O,Symptom
+"Indeed, I am struggling with Loss of sensation.",Do you feel Wrist pain?,O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+You are correct.,Are you also suffering from Paresthesia?,O O O O,Affirmative
+"Exactly, I have got Paresthesia.","Alright, you may have Carpal tunnel syndrome.",O O O O O B-Symptom O,Symptom
+"Disease: Carpal tunnel syndrome, Group: 6",,,
+,,,
+,,,
+Dialogue ID,28548,,
+Patient,Doctor,Symptom,
+"Doctor, I am suffering from White discharge from eye.",Have you felt Pain in eye?,O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+You are right.,Do you have Eye redness?,O O O O,Affirmative
+"Correct, I have Eye redness.",Have you sensed Foreign body sensation in eye?,O O O O B-Symptom I-Symptom O,Symptom
+"Yes, I have felt Foreign body sensation in eye.",Are you dealing with Itchiness of eye?,O O O O O B-Symptom I-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+"Right, doctor.",Do you have Eyelid lesion or rash?,O O O O,Affirmative
+"True, on my right eye, I have Eyelid lesion or rash.",Your symptoms suggest that you have Corneal disorder.,O O O O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+"Disease: Corneal disorder, Group: 7",,,
+,,,
+,,,
+Dialogue ID,23186,,
+Patient,Doctor,Symptom,
+"Hello doctor, I am suffering from Redness in ear.",I see. Do you have Ear pain?,O O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"True, I am feeling Ear pain.",Have you got Fluid in ear.,O O O O O B-Symptom I-Symptom O,Symptom
+"Right, I am struggling with Fluid in ear.",I think you have got Conductive hearing loss.,"O O O O O O B-Sympto, I-Symptom I-Symptom O",Symptom
+"Disease: Conductive hearing loss, Group: 7",,,
+,,,
+,,,
+Dialogue ID,1968,,
+Patient,Doctor,Symptom,
+"Doctor, I have got Lacrimation.",Are you dealing with Eye redness?,O O O O O B-Symptom O,Symptom
+"Indeed, my eyes appears reddish. I definitely have Eye redness.",Have you felt Itchiness of eye?,O O O O O O O O O O B-Symptom I-Symptom O,Symptom
+"Yes, doctor.",Do you feel Pain in eye?,O O O O,Affirmative
+"That is correct, doctor.",Are you suffering from Nasal congestion?,O O O O O O,Affirmative
+"So true, I have got Nasal congestion.",Are you also dealing with Allergic reaction?,O O O O O O B-Symptom I-Symptom O,Symptom
+You are right.,Do you have Cough?,O O O O,Affirmative
+"Literally, I am sickened with Cough.",I think you have Conjunctivitis due to allergy. ,O O O O O O B-Symptom O ,Symptom
+"Disease: Conjunctivitis due to allergy, Group: 7",,,
+,,,
+,,,
+Dialogue ID,22294,,
+Patient,Doctor,Symptom,
+"Hi doctor, I have got Pain in eye.",Do you have Diminished vision?,O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Correct, I have trouble with Diminished vision.",Have you got Eye redness too?,O O O O O O B-Symptom I-Symptom O,Symptom
+That is right.,Does your Eye burns or stings?,O O O O,Affirmative
+"Right, I am struggling with Eye burns or stings.",Your symptoms indicate that I have Aphakia.,O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+"Disease: Aphakia, Group: 7",,,
+,,,
+,,,
+Dialogue ID,25001,,
+Patient,Doctor,Symptom,
+"Doctor, I am suffering from Itching of skin.","OK, have you got Skin rash?",O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"So true, doctor.",Do you have Abnormal appearing skin?,O O O O O,Affirmative
+"Exactly, I have got Abnormal appearing skin on right foot.",Are you suffering from Acne or pimples?,O O O O O B-Symptom I-Symptom I-Symptom O O O O,Symptom
+That is right.,Have you got Dry or flaky scalp?,O O O O ,Affirmative
+"Indeed, I am dealing Dry or flaky scalp. I usually see small pieces on my clothes when I open my hairs. ",Are you dealing with Frequent urination?,O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O O,Symptom
+"Yes, doctor.",Does your Skin on leg or foot looks infected?,O O O O ,Affirmative
+"True, my Skin on leg or foot looks infected.","Fine, you may be suffering from Dyshidrosis.",O O O B-Symptom I-Symptom I-Symptom I-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+"Disease: Dyshidrosis, Group: 12",,,
+,,,
+,,,
+Dialogue ID,7092,,
+Patient,Doctor,Symptom,
+"Hi doctor, I am dealing with Unwanted hair on fingers and toes.",Have you got Weight gain?,O O O O O O O B-Symptom -Symptom O O O O O,Symptom
+"Yes, I have trouble with Weight gain.",Do you feel Pain or soreness of breast?,O O O O O O B-Symptom I-Symptom O,Symptom
+"For sure, I do feel it.",Have you got Fluid retention?,O O O O O O O,Affirmative
+"True, I am suffering from Fluid retention.","Alright, you might have Acanthosis nigricans.",O O O O O O B-Symptom I-Symptom O,Symptom
+"Disease: Acanthosis nigricans, Group: 12",,,
+,,,
+,,,
+Dialogue ID,7265,,
+Patient,Doctor,Symptom,
+"Doctor, I am sick of Itching of skin. Please help me with it.",I see. Do you have Skin rash?,O O O O O O O B-Symptom I-Symptom I-Symptom O O O O O O O,Symptom
+"Certainly, I have got Skin rash.",Have you got Skin lesion?,O O O O O B-Symptom I-Symptom O,Symptom
+That is true.,Are you dealing with Swollen eye?,O O O O,Affirmative
+"Yes, I have a Swollen eye. ",Have you got Skin moles?,O O O O O B-Symptom I-Symptom O,Symptom
+"True, I have Skin moles.",It seems like you have Contact dermatitis.,O O O O B-Symptom I-Symptom O,Symptom
+"Disease: Contact dermatitis, Group: 12",,,
+,,,
+,,,
+Dialogue ID,16364,,
+Patient,Doctor,Symptom,
+"Hi doctor, Please help me. I am dealing with Skin rash on face and ears.","OK, are you also dealing with Abnormal appearing skin?",O O O O O O O O O O O B-Symptom Skin rash O O O O O ,Symptom
+"Indeed, I have got Abnormal appearing skin.","Have you got Skin dryness, peeling, scaliness, or roughness?",O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Yes, doctor.","Alright, do you have Skin moles too?",O O O O,Affirmative
+"True, I have got Skin moles on forehead. . ","Fine, your symptoms indicate that you might have Actinic keratosis.",O O O O O B-Symptom I-Symptom O O O,Symptom
+"Disease: Actinic keratosis, Group: 12",,,
+,,,
+,,,
+Dialogue ID,9522,,
+Patient,Doctor,Symptom,
+"Doctor, my baby boy is suffering from Suprapubic pain.",OK. Has he got Diarrhea?,O O O O O O B-Symptom I-Symptom O,Symptom
+"True, doctor.",Is he dealing with Cough too?,O O O O,Affirmative
+"Yes, I have got Cough.",Have you Skin swelling?,O O O O O B-Symptom O,Symptom
+"Certainly, I have seen Skin swelling around his bum area.","Fine, you might have Diaper rash.",O O O O O B-Symptom I-Symptom O O O O O,Symptom
+"Disease: Diaper rash, Group: 12",,,
+,,,
+,,,
+Dialogue ID,12211,,
+Patient,Doctor,Symptom,
+I am struggling with Knee pain.,Have you got Foot or toe pain?,O O O O B-Symptom I-Symptom O,Symptom
+"Yes, you are correct.",Are you also suffering from Foot or toe swelling?,O O O O O O,Affirmative
+"Correct, I have Foot or toe swelling.",Do you have Wrist pain?,O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Right, I am enduring Wrist pain too.",It seems like you have Gout.,O O O O O B-Symptom I-Symptom O O,Symptom
+"Disease: Gout, Group: 13",,,
+,,,
+,,,
+Dialogue ID,23606,,
+Patient,Doctor,Symptom,
+"Hi doctor, I have felt Knee pain.","Alright, do you feel Knee weakness?",O O O O O O B-Symptom I-Symptom O,Symptom
+"True, I do feel that.",Are you also suffering from Elbow pain?,O O O O O O O,Affirmative
+"Indeed, doctor.",Have you ever felt that Bones are painful?,O O O O,Affirmative
+"Yes, sometimes.","Fine, I think you have Chondromalacia of the patella.",O O O O,Affirmative
+"Disease: Chondromalacia of the patella, Group: 13",,,
+,,,
+,,,
+Dialogue ID,13242,,
+Patient,Doctor,Symptom,
+"Doctor, I have got Cramps or spasms. Please, let me know its cause.","Fine. Tell me, are you also suffering from Foot or toe pain?",O O O O O B-Symptom I-Symptom I-Symptom O O O O O O O O O,Symptom
+"Yes, I have got Foot or toe pain.","OK, I think you have Flat feet.",O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+"Disease: Flat feet, Group: 13",,,
+,,,
+,,,
+Dialogue ID,3842,,
+Patient,Doctor,Symptom,
+"Hi doctor, I am suffering from Skin growth around my left leg.",Are you suffering from Knee pain?,O O O O O O O B-Symptom  I-Symptom O O O O O,Symptom
+That is true.,Do you have Knee lump or mass?,O O O O,Affirmative
+"Right, doctor.",Have you got Knee swelling?,O O O O,Affirmative
+"Certainly, I have got Knee swelling.",You may have Ganglion cyst.,O O O O O B-Symptom I-Symptom O,Symptom
+"Disease: Ganglion cyst, Group: 13",,,
+,,,
+,,,
+Dialogue ID,24204,,
+Patient,Doctor,Symptom,
+"Doctor, I am going through Shoulder stiffness or tightness.","OK, have you got Shoulder pain too?",O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+"Yes, I am suffering from pain.",Have you felt Ache all over?,O O O O O O O O,Affirmative
+"So true, doctor.",Are you also suffering from Stiffness all over?,O O O O O,Affirmative
+You are correct.,"Alright, you have Adhesive capsulitis of the shoulder.",O O O O,Affirmative
+"Disease: Adhesive capsulitis of the shoulder, Group: 13",,,
+,,,
+,,,
+Dialogue ID,25270,,
+Patient,Doctor,Symptom,
+I have trouble with Excessive urination at night.,Are you suffering from Impotence?,O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+"Exactly, doctor.",Do you have trouble with Retention of urine too?,O O O O,Affirmative
+"Correct, I have got Retention of urine.",Your symptoms indicate that you have Erectile dysfunction.,O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Disease: Erectile dysfunction, Group: 14",,,
+,,,
+,,,
+Dialogue ID,16855,,
+Patient,Doctor,Symptom,
+"Doctor, I am suffering from Pelvic pain.","Alright, do you have Vaginal bleeding after menopause?",O O O O O O B-Symptom I-Symptom O,Symptom 
+You are correct.,Are you also suffering from Heavy menstrual flow?,O O O O,Affirmative
+That is right.,"OK, you might have Endometrial hyperplasia.",O O O O,Affirmative
+"Disease: Endometrial hyperplasia, Group: 14",,,
+,,,
+,,,
+Dialogue ID,18802,,
+Patient,Doctor,Symptom,
+"Hi doctor, I am suffering from Shortness of breath.","OK, are you also dealing with Dizziness?",O O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"You are correct, doctor.",Have you got Nausea?,O O O O O O,Affirmative
+That is right.,Do you have Peripheral edema?,O O O O,Affirmative
+"Yes, I am dealing with Peripheral edema.","Fine, your symptoms indicate that you have Acute kidney disease.",O O O O O O B-Symptom I-Symptom O,Symptom
+"Disease: Acute kidney disease, Group: 14",,,
+,,,
+,,,
+Dialogue ID,19774,,
+Patient,Doctor,Symptom,
+"Good morning doctor, I am suffering from Lower abdominal pain.","Alright, do you have Sharp abdominal pain too?",O O O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Right, doctor.",Have you got Painful menstruation?,O O O O,Affirmative
+"True, I have got Painful menstruation.",Are you dealing with Heavy menstrual flow?,O O O O O B-Symptom I-Symptom O,Symptom
+You are correct.,Are you also suffering from Infertility?,O O O O,Affirmative
+"That is right, doctor.",Are you experiencing Intermenstrual bleeding?,O O O O O O,Affirmative
+"Indeed, I am experiencing Intermenstrual bleeding.","OK, you might have Endometriosis.",O O O O O B-Symptom I-Symptom O,Symptom
+"Disease: Endometriosis, Group: 14",,,
+,,,
+,,,
+Dialogue ID,23474,,
+Patient,Doctor,Symptom,
+"Good morning doctor, I have Groin pain.",Do you feel Pain in testicles?,O O O O O O B-Symptom I-Symptom O,Symptom
+"Exactly, I am suffering from Pain in testicles.",Are you suffering from Swelling of scrotum?,O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+You are correct.,Have you felt Sharp abdominal pain?,O O O O,Affirmative
+That is right.,I think you have got Epididymitis.,O O O O,Affirmative
+"Disease: Epididymitis, Group: 14",,,
+,,,
+,,,
+Dialogue ID,11948,,
+Patient,Doctor,Symptom,
+"Hello doctor, I am dealing with Skin swelling problem. Please, let me know its cause.","OK, Tell me, have you got Skin rash too?",O O O O O O O B-Symptom I-Symptom O O O O O O O O O O O,Symptom
+"Right, doctor.",Do you have Itching of skin?,O O O O,Affirmative
+"So true, I have got Itching of skin.",Have you got Swollen eye?,O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"For sure, I am suffering from Swollen eye.",I think you have Allergy.,O O O O O O O B-Symptom -Symptom O,Symptom
+"Disease: Allergy, Group: 19",,,
+,,,
+,,,
+Dialogue ID,28096,,
+Patient,Doctor,Symptom,
+"Hi doctor, I have Knee lump or mass. What could be its cause?",I see. Do you have pain in eye?,O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O O O O O O O,Symptom
+"True, doctor.",Have you got Shoulder cramps or spasms?,O O O O,Affirmative
+"Indeed, I do have that.",Are you suffering from Facial pain?,O O O O O O O,Affirmative
+"Yes, I have trouble with Facial pain.",Do you have Ankle pain?,O O O O O O B-Symptom I-Symptom O,Symptom
+"Right, I have got Ankle pain.",Have you felt Wrist pain?,O O O O O B-Symptom I-Symptom O,Symptom
+Absolutely correct.,Are you dealing with Pain during pregnancy?,O O O,Affirmative
+"Correct, I am suffering from Pain during pregnancy.",Have you got trouble with Excessive anger?,O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Right, doctor.",Do you have Joint stiffness or tightness?,O O O O,Affirmative
+"Yes, I have got Joint stiffness or tightness.",Are you struggling with Pain or soreness of breast?,O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom
+"So true, I am.",Do you feel Fatigue?,O O O O O O,Affirmative
+"True, I get Fatigue quickly.",I think you have Air embolism.,O O O O B-Symptom O O,Symptom
+"Disease: Air embolism, Group: 19",,,
+,,,
+,,,
+Dialogue ID,4224,,
+Patient,Doctor,Symptom,
+"Hi doctor, I have Sharp chest pain.",Are you also dealing with Rib pain?,O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"True, doctor.",Have you got Ache all over?,O O O O,Affirmative
+"That is correct, doctor.",Do you have Arm pain too?,O O O O O O,Affirmative
+"Yes, I have got Arm pain too.",I think you have Fracture of the rib.,O O O O O B-Symptom I-Symptom O O,Symptom
+"Disease: Fracture of the rib, Group: 19",,,
+,,,
+,,,
+Dialogue ID,4966,,
+Patient,Doctor,Symptom,
+"Doctor, I am suffering from Pain in eye.","OK, are you suffering from Eye redness?",O O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"True, I have Eye redness. ",Have you got Swollen eye?,O O O O B-Symptom I-Symptom O,Symptom
+"Exactly, I am dealing with Swollen eye.",Have you noticed Diminished vision?,O O O O O B-Symptom I-Symptom O,Symptom
+"Right, doctor.",Are you dealing with Lacrimation?,O O O O,Affirmative
+You are right.,Do you have Itchiness of eye?,O O O O,Affirmative
+"Yes, I have felt Itchiness of eye.","Alright, based on symptoms, you have Corneal abrasion.",O O O O O B-Symptom I-Symptom I-Symptom O,Symptom
+"Disease: Corneal abrasion, Group: 19",,,
+,,,
+,,,
+Dialogue ID,28152,,
+Patient,Doctor,Symptom,
+"Hi doctor, I have got Skin rash on my left hand. What's wrong with me?",I see. Have you felt like Dizziness?,O O O O O O B-Symptom I-Symptom O O O O O O O O O O,Symptom
+That is true.,Are you also dealing with Peripheral edema?,O O O O,Affirmative
+"True, I am dealing with Peripheral edema.",Do you have Lip swelling?,O O O O O O B-Symptom I-Symptom O,Symptom
+"Right, doctor.",Have you felt Headache?,O O O O,Affirmative
+Correct.,Do you feel like Vomiting?,O O,Affirmative
+"Exactly, most of the time, I feel like Vomiting.","Alright, you seem to have Drug reaction.",O O O O O O O O O O B-Symptom O,Symptom
+"Disease: Drug reaction, Group: 19",,,

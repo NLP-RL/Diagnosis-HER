@@ -1,0 +1,3 @@
+<Symptom> -> I am suffering from [fever:B-Symptom] .
+<Symptom> -> hi doctor , i have [eye:B-Symptom] [pain:I-Symptom] . can you please see what happened ?
+
