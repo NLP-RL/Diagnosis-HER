@@ -1,8 +1,5 @@
-# Diagnosis-HER
-Diagnosis Hindsight Experience Replay (Diagnosis-HER)
+# Diagnosis Hindsight Experience Replay (Diagnosis-HER)
 
-
-#Don't we learn from our every attempt? - Towards Building A Diagnosis Assistant that Learns from Both Successful and Unsuccessful Diagnoses
 
 First, install the environment dependencies using environment.yml
 
