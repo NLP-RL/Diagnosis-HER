@@ -41,24 +41,24 @@ First, install the environment dependencies using environment.yml
     use_all_labels = True
 
 - To run DHER with only Trimming :
-    is_trimming_used = True
-    is_stitching_used = False
-    agent_id = "agenthrljoint2"
-    disease_as_action = False
+    is_trimming_used = True,
+    is_stitching_used = False,
+    agent_id = "agenthrljoint2",
+    disease_as_action = False,
     classifier_type = "deep_learning"
 
 - To run DHER with only Stitching :
-    is_trimming_used = False
-    is_stitching_used = True
-    agent_id = "agenthrljoint2"
-    disease_as_action = False
-    classifier_type = "deep_learning"
+    is_trimming_used = False,
+    is_stitching_used = True,
+    agent_id = "agenthrljoint2",
+    disease_as_action = False,
+    classifier_type = "deep_learning",
     
  To run DHER :
-    is_trimming_used = True
-    is_stitching_used = True
-    agent_id = "agenthrljoint2"
-    disease_as_action = False
+    is_trimming_used = True,
+    is_stitching_used = True,
+    agent_id = "agenthrljoint2",
+    disease_as_action = False,
     classifier_type = "deep_learning"
 
 
@@ -66,5 +66,5 @@ For training :
     train_mode = True 
 
 For testing : 
-    train_mode = False 
+    train_mode = False,
     saved_model = model location (./../../../../src/model/DQN/checkpoint/)
